@@ -115,7 +115,7 @@ st.set_page_config(
 
 # Sidebar for OpenAI API key and model selection
 st.sidebar.title("AI Diagram Generator")
-st.sidebar.image("Streamlit-Mermaid/media/mermaid.png")
+st.sidebar.image("/media/mermaid.png")
 st.sidebar.markdown("Use this tool to easily convert a webpage or PDF document into a mindmap!")
 
 api_key = st.sidebar.text_input("Enter your OpenAI API key:", type="password", placeholder="sk-********")
@@ -174,14 +174,14 @@ with tab1:
             with st.expander("Generated Mermaid Code"):
                 st.markdown("#### Generated Mermaid Code")
                 st.code(cleaned_mermaid_code, language="mermaid")
-            st.image("Streamlit-Mermaid/media/mermaid_live.jpeg", caption="How to use the Mermaid Live service")
+            st.image("/media/mermaid_live.jpeg", caption="How to use the Mermaid Live service")
                 
 with tab2:
     st.markdown("# Sample Output")
     st.markdown("Source: https://apoorv03.com/p/the-economics-of-generative-ai")
     st.markdown("Edit this in the Mermaid Live Editor: [Mermaid Live](https://mermaid.live/edit#pako:eNqNVV1r20AQ_CuLaKAFB1KK29QvwXHS1g9t0ti4UPyyOa2lI6c7cR9yTUh-e_ckOXFtKY2fhDw7tzsze7pPhEkpGSWF1GmB5VJbY_zbZTLPCS6F0aaQwoFZwVfSZNHLimA8XSbvlhr4x8irimwlaf30rn0fGWZUSFC4IQsF3pGDx88nR5ENlYqMTAWlNSvpHXiT4maf5EvwwRJUqAIB6hS8Re2kl0bv9rCo_x8LYQMqkLrl3mebBGtJe2jgF9J5K2_DP2Q76LY_51HcjWB87HIsKYXKwaJ97qq6oYo0s895xM0BoAVFXdwIHt98Gp73YaZ6ZTFi3p_0YsZlqaTAOEFNt8cWRzZFiVY6o2EtfQ4TZULaOrvp6n-qfZC1zY3o6Y5KUVkRCboK65laswWW0Tf2-_TDUZueqKVtxHG73l3X_r_evAaPt1JJv_mviaxQVGZ4cjwcHkFmjXMcRZtJ7bqnb0T_-Brw1sXTF8ExSfWf7aATowXPYbGv5UbIVkJmP60VbA5ol6WrbCFd1M9SycLzATV_f-Xzcl2TdSWJ6PlB57Ncrnz05FqhXxlbNLvTdf7ln0gC-BzJNgzeQIZMUfVVfmMPjeUiBWIvroVhn5vNPwxeDIXlrMbCn5yqeg26Dvgl-br5sZheTMdskWRtuJ1cZvnWsLPOtsyam-BKDi5P1Sq4DR5VRlV01reZ5-Q9z17yWFJn9QDtJaZkpgv2p69yEliNAhwfw1sKIpelA5YelFkz43xy1XtjFNxiRZHcRc8KvtoVoGUKz9aw132VN5QGsd3wpkwY593hbaJdKLiLGWXxGJgfXse7CqJN18gRa4IQysxiSjEQLGlKlRTU6dfTMTthcuCaM90LFyYHtAaPGBzn7oNeajYnpiASjjie_PnLBlBQKrGvph4VRUPP61uRGgAdc2K5UxGlTQYJP3LAUv6g3keSZeJz9mOZjPgxpRUGxb4v9QNDMXgz22iRjLwNNEhCmaKnC4ksUpGMVqgcv-WOeDe-Nx_p-ls9SKwJWf6EKFH_NmZb8fAX53VU7g)")
     st.markdown("## This mind map....")
-    st.image("Streamlit-Mermaid/media/mindmap_sample.png")
+    st.image("/media/mindmap_sample.png")
     st.markdown("## ...is generated using this Mermaid code")
     st.code("""
         mindmap
