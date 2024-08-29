@@ -1,7 +1,6 @@
 streamlit
 pdfplumber
 requests
-importlib.util
 logging
 langchain-openai
 langchain-community
