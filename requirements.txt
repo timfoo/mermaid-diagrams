@@ -1,1 +1,10 @@
 streamlit
+pdfplumber
+requests
+importlib.util
+logging
+langchain-openai
+langchain-community
+langchain
+BeautifulSoup4
+markdown
